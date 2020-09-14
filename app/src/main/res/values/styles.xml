@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="materialCalendarStyle">@style/Widget.MaterialComponents.MaterialCalendar</item>
+        <item name="materialCalendarFullscreenTheme">
+            @style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen
+        </item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar
+        </item>
+        <item name="colorSurface">@color/colorPrimary</item>
+    </style>
+
+    <style name="RisedButton" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/blanco</item>
+        <item name="android:colorButtonNormal">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/blanco</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+</resources>

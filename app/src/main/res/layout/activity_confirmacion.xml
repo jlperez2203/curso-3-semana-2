@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/padding_left"
+    android:paddingTop="@dimen/padding_top"
+    android:paddingEnd="@dimen/padding_rigth"
+    tools:context=".ConfirmacionActivity">
+
+    <TextView
+        android:id="@+id/tv_titulo_confirmacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_top"
+        android:text="@string/tv_confirmar_datos"
+        android:textSize="@dimen/titulos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nombre_completo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/tv_nombre_contacto"
+        android:textSize="@dimen/texto_nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_titulo_confirmacion" />
+
+    <TextView
+        android:id="@+id/tv_label_fecha_nacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/label_fecha_nacimiento"
+        android:textSize="@dimen/texto_datos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_nombre_completo" />
+
+    <TextView
+        android:id="@+id/tv_fecha_nacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/tv_fecha_nacimiento"
+        android:textSize="@dimen/texto_datos"
+        app:layout_constraintStart_toEndOf="@id/tv_label_fecha_nacimiento"
+        app:layout_constraintTop_toBottomOf="@id/tv_nombre_completo" />
+
+    <TextView
+        android:id="@+id/tv_label_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/label_telefono"
+        android:textSize="@dimen/texto_datos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_fecha_nacimiento" />
+
+    <TextView
+        android:id="@+id/tv_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/tv_telefono"
+        android:textSize="@dimen/texto_datos"
+        app:layout_constraintStart_toEndOf="@+id/tv_label_telefono"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_fecha_nacimiento" />
+
+    <TextView
+        android:id="@+id/tv_label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/tv_label_correo"
+        android:textSize="@dimen/texto_datos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_telefono" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/tv_correo"
+        android:textSize="@dimen/texto_datos"
+        app:layout_constraintStart_toEndOf="@+id/tv_label_email"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_telefono" />
+
+    <TextView
+        android:id="@+id/tv_label_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/tv_label_descripcion_contacto"
+        android:textSize="@dimen/texto_datos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_email" />
+
+    <TextView
+        android:id="@+id/tv_descripcion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/tv_descripcion_contacto"
+        android:textSize="@dimen/texto_datos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_label_descripcion"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label_email" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/RisedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_button"
+        android:onClick="abrirEditar"
+        android:paddingStart="@dimen/padding_left"
+        android:paddingEnd="@dimen/padding_rigth"
+        android:text="@string/btn_editar_datos"
+        android:theme="@style/RisedButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_descripcion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

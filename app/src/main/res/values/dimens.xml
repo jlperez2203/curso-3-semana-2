@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_top">24dp</dimen>
+    <dimen name="padding_left">32dp</dimen>
+    <dimen name="padding_rigth">32dp</dimen>
+    <dimen name="titulos">32sp</dimen>
+    <dimen name="texto_nombre">22sp</dimen>
+    <dimen name="margin_left">12dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+    <dimen name="texto_datos">18sp</dimen>
+    <dimen name="margin_top_button">32dp</dimen>
+
+</resources>

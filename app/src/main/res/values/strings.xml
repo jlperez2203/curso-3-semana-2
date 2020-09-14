@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Coursera-semana2</string>
+    <string name="hint_nombre_completo">Nombre completo</string>
+    <string name="hint_fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_descripcion_contacto">Descripción Contacto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="tv_confirmar_datos">Confirmar Datos</string>
+    <string name="tv_nombre_contacto">Nombre del Contacto</string>
+    <string name="label_fecha_nacimiento">Fecha Nacimiento:</string>
+    <string name="tv_fecha_nacimiento">31/12/9999</string>
+    <string name="label_telefono">Tel:</string>
+    <string name="tv_telefono">+99 9999999999</string>
+    <string name="tv_descripcion_contacto">Texto con la descripción del contacto</string>
+    <string name="tv_label_descripcion_contacto">Descripción:</string>
+    <string name="tv_correo">correo@algo.com</string>
+    <string name="tv_label_correo">E-mail:</string>
+    <string name="btn_editar_datos">Editar Datos</string>
+    <string name="extra_nombre_contacto">nombreContacto</string>
+    <string name="extra_fecha_nacimiento">fechaNacimiento</string>
+    <string name="extra_telefono">telefono</string>
+    <string name="extra_correo">correo</string>
+    <string name="extra_descripcion">descripcion</string>
+</resources>
